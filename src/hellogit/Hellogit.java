@@ -18,7 +18,7 @@ public class Hellogit {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.print("Input Name : ");
+        System.out.print("Input Name Anda: ");
         String name = input.nextLine();
         System.out.println("Hello "+name+" !!!");
     }
