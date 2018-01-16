@@ -5,7 +5,6 @@
  */
 
 package hellogit;
-import java.util.Scanner;
 
 /**
  *
@@ -17,9 +16,6 @@ public class Hellogit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-        System.out.print("Input Name : ");
-        String name = input.nextLine();
-        System.out.println("Hello "+name+" !!!");
+        System.out.println("Hello Git!!!");
     }
 }
